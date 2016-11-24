@@ -1,0 +1,52 @@
+{
+  "name": "autotslint-cli",
+  "version": "0.2.0",
+  "description": "CLI tool that fixes TSLint errors in source code.",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "optimist": "^0.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^6.0.51",
+    "@types/optimist": "0.0.29",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^3.0.1",
+    "gulp-sourcemaps": "^1.9.1",
+    "gulp-tslint": "^7.0.1",
+    "gulp-typescript": "^3.1.3",
+    "merge2": "^1.0.2",
+    "run-sequence": "^1.2.2",
+    "typescript": "^2.0.10"
+  },
+  "peerDependencies": {
+    "autotslint": "^0.2.0",
+    "tslint": "^4.0.2"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/autolint/autotslint-cli.git"
+  },
+  "keywords": [
+    "tslint",
+    "lint",
+    "typescript",
+    "autotslint",
+    "automutate",
+    "linter",
+    "clean",
+    "code",
+    "quality"
+  ],
+  "author": "joshuakgoldberg@outlook.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/autolint/autotslint-cli/issues"
+  },
+  "homepage": "https://github.com/autolint/autotslint-cli#readme"
+}
